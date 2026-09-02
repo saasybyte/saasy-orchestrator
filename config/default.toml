@@ -1,0 +1,24 @@
+http_host = "0.0.0.0"
+http_port = 8081
+
+signal_http_url = "http://127.0.0.1:3000"
+signal_system_ws_url = "ws://127.0.0.1:3000/ws/system"
+signal_session_ws_url = "ws://127.0.0.1:3000/ws/session"
+
+edge_grpc_url = "http://127.0.0.1:9090"
+listening_engine_grpc_uds = "/tmp/listening-engine.sock"
+speaking_engine_grpc_uds = "/tmp/speaking-engine.sock"
+
+deepgram_api_key = "" # Do not populate
+speechmatics_api_key = "" # Do not populate
+openai_api_key = "" # Do not populate
+groq_api_key = "" # Do not populate
+anthropic_api_key = "" # Do not populate
+xai_api_key = "" # Do not populate
+cartesia_api_key = "" # Do not populate
+elevenlabs_api_key = "" # Do not populate
+
+gcp_project_id = "" # Do not populate
+gcp_region = "global"
+
+aws_region = "us-east-2"
